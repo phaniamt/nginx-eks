@@ -3,8 +3,8 @@ FROM phanikumary1995/nginx
 #RUN apt-get update
 #RUN apt-get update && apt-get install -y software-properties-common
 #RUN apt-get update && add-apt-repository ppa:nginx/stable
-RUN apt-get update && apt-get install -y iputils-ping
-RUN apt-get update && apt-get install -y curl
+#RUN apt-get update && apt-get install -y iputils-ping
+#RUN apt-get update && apt-get install -y curl
 #RUN apt-get update && \
  #   apt-get -y install nginx
 #COPY nginx.conf /etc/nginx/nginx.conf
