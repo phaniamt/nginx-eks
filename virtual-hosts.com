@@ -9,8 +9,8 @@ server {
     location / {
        # resolver 8.8.8.8;
         resolver kube-dns.kube-system.svc.cluster.local ipv6=off;
-        proxy_read_timeout    90;
-        proxy_connect_timeout 90;
+       # proxy_read_timeout    90;
+       # proxy_connect_timeout 90;
         proxy_redirect        off;
         proxy_pass http://jenkins-master-svc.default.svc.cluster.local:8080;
 
